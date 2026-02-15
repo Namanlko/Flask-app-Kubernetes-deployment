@@ -484,18 +484,6 @@ kubectl get deployment flask-app -n flask-app -o yaml | grep imagePullPolicy
 - [kind Documentation](https://kind.sigs.k8s.io/)
 - [Flask Documentation](https://flask.palletsprojects.com/)
 
-## 🎯 Next Steps
-
-After mastering this project, try:
-
-1. **Add ConfigMaps** - Externalize configuration
-2. **Add Secrets** - Store sensitive data securely
-3. **Implement HPA** - Horizontal Pod Autoscaling
-4. **Add Persistent Storage** - Use PersistentVolumes
-5. **Monitoring** - Integrate Prometheus & Grafana
-6. **CI/CD Pipeline** - Automate deployments with GitHub Actions
-7. **Helm Charts** - Package the application
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -506,9 +494,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -522,11 +507,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Project Link: [https://github.com/Namanlko/Flask-app-Kubernetes-deployment](https://github.com/Namanlko/Flask-app-Kubernetes-deployment)
 
----
-
 ⭐ **If this project helped you learn Kubernetes Ingress, please give it a star!** ⭐
 
----
 
 ## 📊 Architecture Diagram
 
@@ -563,10 +545,5 @@ Project Link: [https://github.com/Namanlko/Flask-app-Kubernetes-deployment](http
         └─────────┘                └──────────┘
 ```
 
-## 🎬 Demo
-
-![Demo GIF](demo.gif)
-
----
 
 **Happy Learning! 🚀**
